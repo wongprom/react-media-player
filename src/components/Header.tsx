@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import './Header.css';
 
-const Header = (): ReactElement => {
+export const Header = (): ReactElement => {
   return (
     <header>
       <span className="material-symbols-outlined">chevron_left</span>
@@ -10,5 +10,3 @@ const Header = (): ReactElement => {
     </header>
   );
 };
-
-export default Header;
