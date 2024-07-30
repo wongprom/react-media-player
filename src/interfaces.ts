@@ -3,6 +3,11 @@ export interface IImages {
   masterBlaster: string;
   umaChance: string;
   worldOnFire: string;
+  easy: string;
+  noLoveDubplate: string;
+  eighteen: string;
+  tennesseeWhiskey: string;
+  jealousy: string;
 }
 
 export interface ISong {
