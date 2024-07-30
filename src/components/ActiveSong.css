@@ -15,6 +15,27 @@ img {
   height: 100%;
 }
 
+.active-song-info p {
+  margin: 0;
+}
+
 .active-song-info {
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active-album-info .artist {
+  font-size: xx-large;
+  letter-spacing: 0.1rem;
+}
+
+.active-album-info .title {
+  text-align: center;
+  font-size: x-large;
+}
+
+.font-size-30 {
+  font-size: 30px;
 }
