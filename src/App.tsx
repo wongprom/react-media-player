@@ -1,6 +1,6 @@
-import './App.css';
-import { Header, Playlist } from './components';
+import { ActiveSong, Header, Playlist } from './components';
 import { songs } from './data';
+import './App.css';
 
 export function App() {
   return (
@@ -10,7 +10,9 @@ export function App() {
         <section className="song-list">
           <Playlist songs={songs} />
         </section>
-        <section className="music-player"></section>
+        <section className="music-player">
+          <ActiveSong activeSong={songs[2]} />
+        </section>
       </main>
     </>
   );
