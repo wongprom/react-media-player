@@ -1,15 +1,21 @@
 .timeline {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .bar-wrapper {
-  width: 100px;
+  flex: 1;
   height: 4px;
-  background-color: pink;
+  background-color: #eee;
+  border-radius: 25px;
 }
 
 .bar {
-  background-color: orange;
-  width: 50px;
+  width: 25%;
+  background-color: #76abae;
   height: 4px;
+  border-radius: 25px;
 }
