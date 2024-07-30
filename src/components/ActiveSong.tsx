@@ -1,6 +1,7 @@
 import { ReactElement } from 'react';
 import { ISong } from '../interfaces';
 import './ActiveSong.css';
+import { SongInfo } from '.';
 
 interface IActiveSongProps {
   activeSong: ISong;
@@ -14,18 +15,7 @@ export const ActiveSong = ({ activeSong }: IActiveSongProps): ReactElement => {
         <img src={activeSong.image} alt="" />
       </figure>
       {/* active song info */}
-      <div className="active-song-info">
-        <div>
-          <span className="material-symbols-outlined">more_vert</span>
-        </div>
-        <div>
-          <p>{activeSong.artist}</p>
-          <p>{activeSong.title}</p>
-        </div>
-        <div>
-          <span className="material-symbols-outlined">more_vert</span>
-        </div>
-      </div>
+      <SongInfo artist={activeSong.artist} title={activeSong.title} />
       {/* timeline */}
       <div className="timeline">
         <span>0.40</span>
