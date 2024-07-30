@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-inline: 4rem;
+  gap: 2rem;
 }
 
 .image-wrapper {
