@@ -1,4 +1,4 @@
-import { IImages } from './interfaces';
+import { IImages, ISong } from './interfaces';
 import loseControlImage from './assets/images/lose-control-530.png';
 import masterBlasterImage from './assets/images/master-blaster-530.png';
 import umaChanceImage from './assets/images/uma-chance-530.png';
@@ -9,7 +9,7 @@ export const images: IImages = {
   umaChance: umaChanceImage,
 };
 
-export const songs = [
+export const songs: ISong[] = [
   {
     id: '1',
     image: images.umaChance,
