@@ -2,6 +2,7 @@ body {
   background-color: #222831;
   color: #eeeeee;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 main {
