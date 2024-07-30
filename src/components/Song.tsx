@@ -13,8 +13,8 @@ export const Song = ({ song }: SongProps): ReactElement => {
         <img src={song.image} alt="" />
       </div>
       <div className="info">
-        <p>artist: {song.artist}</p>
-        <p>title: {song.title}</p>
+        <p className="artist">{song.artist}</p>
+        <p className="title">{song.title}</p>
       </div>
       <div className="icon-wrapper">
         <span className="material-symbols-outlined">more_vert</span>
