@@ -4,3 +4,4 @@ export * from './Song';
 export * from './ActiveSong';
 export * from './SongInfo';
 export * from './Timeline';
+export * from './Controls';
