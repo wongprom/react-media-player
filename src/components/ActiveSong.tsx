@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import { ISong } from '../interfaces';
 import './ActiveSong.css';
-import { SongInfo } from '.';
+import { SongInfo, Timeline } from '.';
 
 interface IActiveSongProps {
   activeSong: ISong;
@@ -17,13 +17,7 @@ export const ActiveSong = ({ activeSong }: IActiveSongProps): ReactElement => {
       {/* active song info */}
       <SongInfo artist={activeSong.artist} title={activeSong.title} />
       {/* timeline */}
-      <div className="timeline">
-        <span>0.40</span>
-        <div className="bar-wrapper">
-          <div className="bar"></div>
-        </div>
-        <span>4.29</span>
-      </div>
+      <Timeline />
       {/* controls */}
       <div className="controls">
         <div>
