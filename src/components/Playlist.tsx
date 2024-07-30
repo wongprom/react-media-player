@@ -11,7 +11,7 @@ export const Playlist = ({ songs }: PlalistProps): ReactElement => {
   return (
     <ul>
       {songs.map((song) => (
-        <Song song={song} />
+        <Song key={song.id} song={song} />
       ))}
     </ul>
   );
