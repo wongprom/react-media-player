@@ -3,4 +3,5 @@ header {
   justify-content: space-between;
   align-items: center;
   font-size: larger;
+  padding-inline: 4rem;
 }
