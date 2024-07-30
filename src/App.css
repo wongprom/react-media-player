@@ -1,10 +1,28 @@
 body {
   background-color: #222831;
   color: #eeeeee;
+  max-width: 1200px;
 }
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'media-player'
+    'song-list';
   height: 100vh;
+}
+
+.song-list {
+  grid-area: song-list;
+}
+
+.music-player {
+  grid-area: media-player;
+}
+
+@media (min-width: 1000px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'media-player song-list';
+  }
 }
