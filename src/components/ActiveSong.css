@@ -18,19 +18,3 @@ img {
   display: flex;
   background-color: aquamarine;
 }
-
-.timeline {
-  display: flex;
-}
-
-.bar-wrapper {
-  width: 100px;
-  height: 4px;
-  background-color: pink;
-}
-
-.bar {
-  background-color: orange;
-  width: 50px;
-  height: 4px;
-}
